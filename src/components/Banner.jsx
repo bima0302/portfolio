@@ -10,7 +10,7 @@ function Banner() {
           class="inline-block"
           target="_blank"
         >
-          <button class="bg-white text-blue-500 px-4 py-2 rounded-lg hover:bg-blue-500 hover:text-white">
+          <button class="bg-white text-blue-500 px-4 py-2 rounded-3xl hover:bg-blue-500 hover:text-white">
             Contact Me
           </button>
         </a>
