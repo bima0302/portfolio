@@ -6,14 +6,22 @@ export default function Header() {
     <nav className="bg-white fixed top-0 left-0 w-full z-20">
       <div className="flex max-w-full flex-wrap items-center justify-between p-4 px-4">
         <div className="flex items-center cursor-pointer">
-          <button className="w-10 h-10 bg-white text-black hover:bg-gray-200 rounded-full flex justify-center items-center">
-            <FiHome />
-          </button>
+          {/* TODO: Add logo image */}
+          <a
+            href="https://bimasetyo.com"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <button className="w-10 h-10 bg-white text-black hover:bg-gray-200 rounded-full flex justify-center items-center">
+              <FiHome />
+            </button>
+          </a>
           <span>bimasetyo.com</span>
         </div>
-        <button className="w-10 h-10 bg-white text-black hover:bg-gray-200 rounded-full flex justify-center items-center">
+        {/* TODO: Add user icon */}
+        {/* <button className="w-10 h-10 bg-white text-black hover:bg-gray-200 rounded-full flex justify-center items-center">
           <FiUser />
-        </button>
+        </button> */}
       </div>
     </nav>
   );
