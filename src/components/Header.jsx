@@ -16,7 +16,7 @@ export default function Header() {
               <FiHome />
             </button>
           </a>
-          <span>bimasetyo.com</span>
+          <div className="ml-2 text-lg">bimasetyo.com</div>
         </div>
         {/* TODO: Add user icon */}
         {/* <button className="w-10 h-10 bg-white text-black hover:bg-gray-200 rounded-full flex justify-center items-center">
