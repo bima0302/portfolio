@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Banner from "@/components/Banner";
-import Card from "@/components/Card";
 import Projects from "@/components/Projects";
+import Blog from "@/components/Blog";
 
 export default function Home() {
   return (
     <>
       <Banner />
       <Projects />
+      <Blog />
     </>
   );
 }
