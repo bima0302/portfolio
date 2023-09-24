@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <>
-      <div className="flex flex-col sm:flex-row items-center justify-center m-4">
+      <div className="flex flex-col sm:flex-row items-center justify-center mt-20 mx-4">
         {/* TODO: Add Tumbnail */}
         <div className="container bg-red-100 h-80 max-w-lg rounded-3xl hover:rounded-[48px]"></div>
         {/* TODO: Add Project Details */}
