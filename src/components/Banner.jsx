@@ -4,19 +4,33 @@ function Banner() {
   return (
     // TODO: Add banner
     // TODO: Add background
-    <div className="bg-blue-100 h-72 mt-20 p-10 m-4 rounded-3xl flex items-center">
+    <div className="bg-blue-100 h-96 m-4 rounded-3xl flex items-center justify-center text-center">
       {/* TODO: Add contents */}
-      <div class="container mx-auto flex items-center justify-between">
+      <div class="container ">
         {/* TODO: Add title */}
-        <div class="text-2xl">Hello, I&apos;m Bima!</div>
+        <div class="font-bold text-6xl">Hello, I&apos;m Bima!</div>
+        {/* TODO: Add description */}
+        <p class="font-base text-xl">Lorem ipsum dolor sit amet.</p>
         {/* TODO: Add button (Contact Me) */}
         <a
           href="https://www.linkedin.com/in/abimanyusrisetyo/"
           class="inline-block"
           target="_blank"
         >
-          <button class="bg-white text-blue-500 px-4 py-2 rounded-3xl hover:bg-blue-500 hover:text-white">
+          <button class="bg-white text-blue-500 px-4 py-2 rounded-3xl hover:bg-blue-500 hover:text-white m-2">
             Contact Me
+          </button>
+        </a>
+        {/* TODO: Add button (Projects) */}
+        <a href="#Projects" class="inline-block">
+          <button class="bg-white text-blue-500 px-4 py-2 rounded-3xl hover:bg-blue-500 hover:text-white m-2">
+            Projects
+          </button>
+        </a>
+        {/* TODO: Add button (Blog) */}
+        <a href="#Blog" class="inline-block">
+          <button class="bg-white text-blue-500 px-4 py-2 rounded-3xl hover:bg-blue-500 hover:text-white m-2">
+            Blog
           </button>
         </a>
       </div>
