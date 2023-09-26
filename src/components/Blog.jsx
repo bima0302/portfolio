@@ -2,8 +2,11 @@ import React from "react";
 
 function Blog() {
   return (
-    <div id="Blog" className="text-center">
-      <h1 className="text-3xl font-bold mx-4 mt-20">My Blogs</h1> {/* Title */}
+    <div id="Blog">
+      <h1 className="text-center text-3xl font-bold mx-4 mt-20">
+        My Recent Posts
+      </h1>{" "}
+      {/* Title */}
       <div className="flex flex-col md:flex-row items-center justify-center m-4">
         {/* Card 1 */}
         <div className="container bg-gray-50 hover:bg-blue-100 max-w-sm cursor-pointer h-72 rounded-3xl m-2">
@@ -37,11 +40,13 @@ function Blog() {
         </div>
       </div>
       {/* See more button */}
-      <a href="http://blog.bimasetyo.com" target="_blank">
-        <button className="mt-4 mx-auto px-4 py-2 w-72 text-blue-500 border border-blue-500 rounded-full hover:bg-blue-500 hover:text-white">
-          See more
-        </button>
-      </a>
+      <div className="text-center">
+        <a href="http://blog.bimasetyo.com" target="_blank">
+          <button className="mt-4 mx-auto px-4 py-2 w-72 text-blue-500 border border-blue-500 rounded-full hover:bg-blue-500 hover:text-white">
+            See more
+          </button>
+        </a>
+      </div>
     </div>
   );
 }
