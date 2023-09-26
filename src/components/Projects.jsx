@@ -2,11 +2,9 @@ import React from "react";
 
 function Projects() {
   return (
-    <div id="Projects">
+    <div id="Projects" className="my-10">
       {/* Title */}
-      <h1 className="text-center text-3xl font-bold mx-4 mt-20">
-        My Projects
-      </h1>{" "}
+      <h1 className="text-center text-3xl font-bold mx-4">My Projects</h1>{" "}
       <div className="flex flex-col md:flex-row items-center justify-center m-4">
         {/* TODO: Add Tumbnail */}
         <div className="container bg-red-100 h-80 max-w-xl rounded-3xl hover:rounded-[48px]"></div>

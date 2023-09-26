@@ -10,7 +10,7 @@ function Banner() {
         {/* TODO: Add title */}
         <div class="font-bold text-6xl">Hello, I&apos;m Bima!</div>
         {/* TODO: Add description */}
-        <p class="font-base text-xl">Software engineer.</p>
+        <p class="font-base text-xl">Sayur sop engineer.</p>
         {/* TODO: Add button (Contact Me) */}
         <a
           href="https://www.linkedin.com/in/abimanyusrisetyo/"
