@@ -7,7 +7,7 @@ function Projects() {
       <h1 className="text-center text-3xl font-bold mx-4">My Projects</h1>{" "}
       <div className="flex flex-col md:flex-row items-center justify-center m-4">
         {/* TODO: Add Tumbnail */}
-        <div className="container bg-red-100 h-80 max-w-xl rounded-3xl hover:rounded-[48px]"></div>
+        <div className="container bg-center bg-[url('https://www.frisianflag.com/storage/app/media/uploaded-files/sop-baso.jpg')] h-80 max-w-xl rounded-3xl hover:rounded-[48px]"></div>
         {/* TODO: Add Project Details */}
         <div className="container h-80 max-w-xl rounded-3xl p-8">
           {/* TODO: Add title */}
