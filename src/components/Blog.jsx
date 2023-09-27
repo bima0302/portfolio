@@ -7,7 +7,7 @@ function Blog() {
       {/* Title */}
       <div className="flex flex-col md:flex-row items-center justify-center m-4">
         {/* Card 1 */}
-        <div className="container bg-gray-50 hover:bg-blue-100 max-w-sm cursor-pointer h-80 rounded-3xl m-2">
+        <div className="container bg-gray-50 hover:bg-blue-100 max-w-sm cursor-pointer h-80 rounded-3xl m-2 transition duration-300">
           <div className="bg-[url('https://blog.bimasetyo.com/static/3c4f7295aec5a359e90b9e6360989751/f058b/2-06.png')] h-4/6 rounded-3xl"></div>
           <div className="p-4">
             <div className="font-medium text-xl">Magang Di GoTo</div>
@@ -18,7 +18,7 @@ function Blog() {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="container bg-gray-50 hover:bg-blue-100 max-w-sm cursor-pointer h-80 rounded-3xl m-2">
+        <div className="container bg-gray-50 hover:bg-blue-100 max-w-sm cursor-pointer h-80 rounded-3xl m-2 transition duration-300">
           <div className="bg-blue-200 h-4/6 rounded-3xl"></div>
           <div className="p-4">
             <div className="font-medium text-xl">Bagaimana Cara Belajar?</div>
@@ -27,8 +27,8 @@ function Blog() {
             </p>
           </div>
         </div>
-        {/* Card 2 */}
-        <div className="container bg-gray-50 hover:bg-blue-100 max-w-sm cursor-pointer h-80 rounded-3xl m-2">
+        {/* Card 3 */}
+        <div className="container bg-gray-50 hover:bg-blue-100 max-w-sm cursor-pointer h-80 rounded-3xl m-2 transition duration-300">
           <div className="bg-blue-200 h-4/6 rounded-3xl"></div>
           <div className="p-4">
             <div className="font-medium text-xl">
@@ -43,7 +43,7 @@ function Blog() {
       {/* See more button */}
       <div className="text-center">
         <a href="http://blog.bimasetyo.com" target="_blank">
-          <button className="mt-4 mx-auto px-4 py-2 w-72 text-blue-500 border-2 border-blue-500 rounded-full hover:bg-blue-500 hover:text-white">
+          <button className="mt-4 mx-auto px-4 py-2 w-72 text-blue-500 border-2 border-blue-500 rounded-full hover:bg-blue-500 hover:text-white transition duration-300">
             See more
           </button>
         </a>
