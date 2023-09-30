@@ -7,7 +7,9 @@ function Footer() {
       {/* Add contents */}
       <div className="container">
         {/* Add "Build With Love by Bima" text */}
-        <p className="mt-4 text-gray-600 text-sm">Build With Love by Bima</p>
+        <p className="mt-4 text-gray-600 text-sm">
+          Build With &hearts; by Bima Setyo
+        </p>
         {/* Add buttons with react-icons (LinkedIn) */}
         <a
           href="https://www.linkedin.com/in/abimanyusrisetyo/"
