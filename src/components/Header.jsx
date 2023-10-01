@@ -8,7 +8,7 @@ function Header() {
       {/* TODO: Add contents */}
       <div class="container ">
         {/* TODO: Add title */}
-        <div class="font-bold text-6xl">Hello, I&apos;m Bima!</div>
+        <div class="font-bold md:text-6xl text-3xl">Hello, I&apos;m Bima!</div>
         {/* TODO: Add description */}
         <p class="font-base text-xl">Software engineer.</p>
         {/* TODO: Add button (Contact Me) */}
