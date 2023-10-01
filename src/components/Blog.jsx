@@ -5,12 +5,12 @@ function Blog() {
     <div id="Blog" className="my-10">
       <h1 className="text-center text-3xl font-bold mx-4">My Recent Posts</h1>{" "}
       {/* Title */}
-      <div className="flex flex-col md:flex-row items-center justify-center m-4">
+      <div className="flex flex-col lg:flex-row items-center justify-center m-4">
         {/* Card 1 */}
         <div className="container bg-gray-50 hover:bg-blue-100 max-w-sm cursor-pointer h-80 rounded-3xl m-2 transition duration-300">
           <div className="bg-[url('https://blog.bimasetyo.com/static/3c4f7295aec5a359e90b9e6360989751/f058b/2-06.png')] h-4/6 rounded-3xl"></div>
           <div className="p-4">
-            <div className="font-medium text-xl">Magang Di GoTo</div>
+            <div className="font-base text-xl">Magang Di GoTo</div>
             <p className="text-gray-700 text-base">
               Pengalaman berharga saya selama 6 Bulan Magang dan Studi
               Independen di GoTo.
@@ -21,7 +21,7 @@ function Blog() {
         <div className="container bg-gray-50 hover:bg-blue-100 max-w-sm cursor-pointer h-80 rounded-3xl m-2 transition duration-300">
           <div className="bg-blue-200 h-4/6 rounded-3xl"></div>
           <div className="p-4">
-            <div className="font-medium text-xl">Bagaimana Cara Belajar?</div>
+            <div className="font-base text-xl">Bagaimana Cara Belajar?</div>
             <p className="text-gray-700 text-base">
               Berbagi tentang bagaimana caranya belajar dengan benar.
             </p>
@@ -31,7 +31,7 @@ function Blog() {
         <div className="container bg-gray-50 hover:bg-blue-100 max-w-sm cursor-pointer h-80 rounded-3xl m-2 transition duration-300">
           <div className="bg-blue-200 h-4/6 rounded-3xl"></div>
           <div className="p-4">
-            <div className="font-medium text-xl">
+            <div className="font-base text-xl">
               Memahami dan Menggunakan Async Function pada JavaScript
             </div>
             <p className="text-gray-700 text-base">

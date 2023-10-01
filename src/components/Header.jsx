@@ -4,7 +4,7 @@ function Header() {
   return (
     // TODO: Add Header
     // TODO: Add background
-    <div className="bg-blue-100 h-96 m-4 rounded-3xl flex items-center justify-center text-center">
+    <div className="bg-blue-100 md:h-96 h-80 m-4 rounded-3xl flex items-center justify-center text-center">
       {/* TODO: Add contents */}
       <div class="container ">
         {/* TODO: Add title */}
