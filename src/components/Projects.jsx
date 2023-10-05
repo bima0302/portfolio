@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Projects() {
   return (
@@ -7,7 +8,8 @@ function Projects() {
       <h1 className="text-center text-3xl font-bold mx-4">My Projects</h1>{" "}
       <div className="flex flex-col md:flex-row items-center justify-center m-4">
         {/* TODO: Add Tumbnail */}
-        <div className="container bg-cover bg-center bg-[url('https://raw.githubusercontent.com/bzizmza/dino-plus-movie/main/screenshot.png')] h-80 max-w-xl rounded-3xl transition duration-300 ease-in-out transform hover:scale-105"></div>
+        <div className="container bg-cover bg-center bg-[url('/project-1.webp')] h-80 max-w-xl rounded-3xl transition duration-300 ease-in-out transform hover:scale-105"></div>
+
         {/* TODO: Add Project Details */}
         <div className="container flex content-center flex-wrap h-80 max-w-xl rounded-3xl p-8">
           {/* TODO: Add title */}
@@ -22,10 +24,10 @@ function Projects() {
             <p class="text-lg font-semibold text-gray-700 dark:text-gray-300">
               Tech Stack:
               <span class="text-blue-500 dark:text-blue-400 ml-2">React</span>,
-              <span class="text-green-500 dark:text-green-400">
+              <span class="text-green-500 dark:text-green-400">Vite</span>,
+              <span class="text-indigo-500 dark:text-indigo-400">
                 Tailwind CSS
               </span>
-              ,<span class="text-indigo-500 dark:text-indigo-400">Vite</span>
             </p>
           </div>
           <div class="mt-4">
@@ -50,31 +52,29 @@ function Projects() {
         {/* TODO: Add Project Details */}
         <div className="container flex content-center flex-wrap h-80 max-w-xl rounded-3xl p-8">
           {/* TODO: Add title */}
-          <div class="font-bold text-2xl">Lorem ipsum dolor.</div>
+          <div class="font-bold text-2xl">Portfolio Website</div>
           {/* TODO: Add description */}
           <div>
-            <p class="font-base text-base">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit,
-              scelerisque aenean facilisi taciti inceptos diam, venenatis cum
-              quam aptent iaculis nunc.
-            </p>
+            <p class="font-base text-base">My personal portfolio website.</p>
             <p class="text-lg font-semibold text-gray-700 dark:text-gray-300">
               Tech Stack:
-              <span class="text-blue-500 dark:text-blue-400 ml-2">Lorem</span>,
-              <span class="text-green-500 dark:text-green-400">ipsum</span>,
-              <span class="text-indigo-500 dark:text-indigo-400">dolor</span>
+              <span class="text-blue-500 dark:text-blue-400 ml-2">React</span>,
+              <span class="text-green-500 dark:text-green-400">NextJS</span>,
+              <span class="text-indigo-500 dark:text-indigo-400">
+                Tailwind CSS
+              </span>
             </p>
           </div>
           <div class="mt-4">
             <a
-              href="#"
+              href="https://www.bimasetyo.com/"
               target="_blank"
               class="bg-blue-500 hover:bg-white text-white hover:text-blue-500 border-blue-500 border-2 font-semibold py-2 px-4 rounded-3xl mr-4 transition duration-300"
             >
               Demo
             </a>
             <a
-              href="#"
+              href="https://github.com/bzizmza/portfolio"
               target="_blank"
               class="bg-gray-700 hover:bg-white text-white hover:text-gray-700 border-gray-700 border-2 font-semibold py-2 px-4 rounded-3xl transition duration-300"
             >
@@ -83,7 +83,7 @@ function Projects() {
           </div>
         </div>
         {/* TODO: Add Tumbnail */}
-        <div className="container bg-red-100 h-80 max-w-xl rounded-3xl transition duration-300 ease-in-out transform hover:scale-105"></div>
+        <div className="container bg-cover bg-center bg-[url('/project-2.webp')] h-80 max-w-xl rounded-3xl transition duration-300 ease-in-out transform hover:scale-105"></div>
       </div>
       {/* See more button */}
       <div className="text-center">
