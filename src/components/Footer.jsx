@@ -22,7 +22,7 @@ function Footer() {
         </a>
         {/* Add buttons with react-icons (GitHub) */}
         <a
-          href="http://github.com/bzizmza"
+          href="http://github.com/bima0302"
           className="inline-block"
           target="_blank"
         >
